@@ -339,63 +339,7 @@ a{
 
 
 @media (max-width:800px){
-    header .logo{
-        float: none;
-    }
-
-    header .menu_icon{
-        display: block;
-    }
-
-    ul.social{
-        display: none;
-    }
-
-    header nav{
-        display: block;
-        background: #353434;
-        margin: 21px 0 0 0;
-        padding: 0;
-        border-left: 0;
-        border-top: 1px #2c2c2c solid;
-        overflow: hidden;
-        text-align: center;
-        position: relative;
-        z-index: 9999;
-        display: none;
-    }
-    header nav{
-        border-bottom-left-radius: 2px; 
-        -webkit-border-bottom-left-radius: 2px; 
-        -moz-border-bottom-left-radius: 2px; 
-        -o-border-bottom-left-radius: 2px; 
-        border-bottom-right-radius: 2px; 
-        -webkit-border-bottom-right-radius: 2px; 
-        -moz-border-bottom-right-radius: 2px; 
-        -o-border-bottom-right-radius: 2px; 
-    }
-    header nav.show_menu{
-        display: block;
-    }
-    header nav ul li{
-        margin: 0;
-        width: 100%;
-        border-bottom: 1px #2c2c2c solid;
-    }
-    header nav ul li:last-child{
-        border-bottom: 0;
-    }
-    header nav ul li a{
-        display: block;
-        width: 100%;
-        padding: 20px 0;
-    }
-    header nav ul li a:active{
-        display: block;
-        width: 100%;
-        padding: 20px 0;
-        background: #2c2c2c;
-    }
+    
 
     .features .feature{
         width: 46.66666666666667%;
